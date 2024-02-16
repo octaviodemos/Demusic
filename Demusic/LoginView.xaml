@@ -8,14 +8,11 @@
         Title="LoginView" Height="400" Width="350"
         Background="#C0C0C0">
     <Grid>
-        <Grid.ColumnDefinitions>
-        </Grid.ColumnDefinitions>
         <Border Padding="18"/>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock 
                 Text="DEMUSICS"
                 Margin="0,30,0,200"
-                HorizontalAlignment="Center"
                 FontSize="30"
                 Foreground="Orange"
                 Background="White"/>
@@ -48,9 +45,7 @@
                 BorderBrush="Transparent"
                 Foreground="Blue"
                 FontSize="16"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                Click="Button_Click"
+                Click="CadastroButton"
                 Command="{Binding AcessarCommand}"/>
         </StackPanel>
     </Grid>
