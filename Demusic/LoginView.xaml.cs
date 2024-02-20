@@ -8,8 +8,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Demusic;
 
-namespace TelaDemusic
+namespace Demusic
 {
     public partial class LoginView : Window
     {
@@ -21,12 +22,14 @@ namespace TelaDemusic
 
         private void CadastroButton(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("teste");
+            CadastroView TelaCadastro = new CadastroView();
+            TelaCadastro.Show();
+
         }
 
         private void AcessaButton(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Teste");
+            MessageBox.Show("teste");
         }
 
     }
